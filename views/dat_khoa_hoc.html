@@ -1,0 +1,111 @@
+
+<div>
+    <div>
+        
+        <h1>{{a}}</h1>
+    </div>
+    <div class="banner">
+        <img width="100%" src="https://daotaopti.vn/themes/pti.edu.vn/images/banner-bg.png" alt="">
+    </div>
+    <h1>{{tieu_de_dat}}</h1>
+    <form action="">
+
+    <table style="margin:auto;margin-top: 10px;">
+        <tr>
+            <td>Họ và tên</td>
+            <td>
+                <input ng-model="inputValue_ten" class="m"  type="text">
+            </td>
+            
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span ng-if="kiemtra.ten==true" style="color:red">bạn phải nhập dữ liệu không được bỏ trống!</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p  style="color:blue">
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input ng-model="inputValue_Email"  class="m" type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span ng-if="kiemtra.Email==true" style="color:red">bạn phải nhập dữ liệu không được bỏ trống!</span>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input ng-model="inputValue_address" class="m" type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span ng-if="kiemtra.address==true" style="color:red">bạn phải nhập dữ liệu không được bỏ trống!</span>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td>số điện thoại</td>
+            <td>
+                <input ng-model="inputValue_phone"  type="text" class="m">
+               
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span ng-if="kiemtra.phone==true" style="color:red">bạn phải nhập dữ liệu không được bỏ trống!</span>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td>Chọn khóa học</td>
+            <td>
+                <select class="m" name="" id="">
+                    <option value="">--chọn--</option>
+                    <option selected value="">js</option>
+                    <option value="">php</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Mật khẩu</td>
+            <td><input ng-model="inputValue_mat_khau"  class="m" type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span ng-if="kiemtra.mat_khau==true" style="color:red">bạn phải nhập dữ liệu không được bỏ trống!</span>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td>
+                Hình thức thanh toán
+            </td>
+            <td>
+                <select class="m" name="" id="">
+                    <option value="thanh toán onl">thanh toán online</option>
+                    <option value="thanh toán ở nhà">thanh toán bưu điện</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="reset" value="reset">
+            </td>
+            <td>
+                
+                <input  ng-click="onsubmitForm ()" type="submit" value="mua khóa học">
+            </td>
+        </tr>
+    </table>
+</form>
+</div>

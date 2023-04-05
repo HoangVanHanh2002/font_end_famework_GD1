@@ -1,0 +1,50 @@
+nav {
+    height: 40px;
+    /* width: 100%; */
+    background-color: #b52025;
+
+}
+.text2{
+    width:600px;margin-left: 16px;
+}
+.h1_lien_he,
+.h3_thong_tin{
+    text-align: center;
+}
+.text{
+    text-align: center;margin-bottom: -10px;
+}
+.text1{
+    text-align: center;margin-top: 10px;
+}
+.block1{
+    display:flex
+}
+.m{
+    width:300px;
+}
+h1{
+    text-align: center;
+}
+ul {
+    margin-left: -2em;
+
+}
+ul li {
+    list-style: none;
+    margin-left: 4em;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+ul li a:hover{
+    color: #f37021;
+}
